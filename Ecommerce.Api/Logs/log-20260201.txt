@@ -1,0 +1,270 @@
+[2026-02-01 00:00:00 WRN] Failed to determine the https port for redirect.
+[2026-02-01 00:00:00 INF] User login attempt.
+[2026-02-01 00:00:00 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-01 00:00:00 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-01 00:00:01 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-02-01 00:00:01 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-01 00:00:01 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-01 00:00:01 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-01 00:00:01 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-01 00:00:01 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-02-01 00:00:01 INF] User logged in successfully.
+[2026-02-01 00:00:01 INF] HTTP POST /api/auth/login responded 200 in 610.9657 ms
+[2026-02-01 00:01:19 INF] Disabling user with ID: "9f6a0824-603e-4f70-9e4c-5609c03b807b"
+[2026-02-01 00:01:24 INF] Disabling user with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b
+[2026-02-01 00:01:33 INF] Retrieving user by ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b from the database.
+[2026-02-01 00:01:41 INF] User with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b retrieved successfully.
+[2026-02-01 00:02:36 INF] Updating user with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b in the database.
+[2026-02-01 00:02:39 INF] User with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b updated successfully.
+[2026-02-01 00:02:41 INF] User with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b disabled successfully.
+[2026-02-01 00:02:45 INF] User with ID: "9f6a0824-603e-4f70-9e4c-5609c03b807b" disabled successfully
+[2026-02-01 00:02:51 INF] HTTP DELETE /api/users/9f6a0824-603e-4f70-9e4c-5609c03b807b/disable responded 204 in 98567.9338 ms
+[2026-02-01 00:08:13 INF] Received request to create a new product.
+[2026-02-01 00:08:13 INF] Starting product creation process.
+[2026-02-01 00:08:13 INF] Adding a new product to the database.
+[2026-02-01 00:08:13 INF] Product added successfully.
+[2026-02-01 00:08:13 INF] Product created successfully with ID: 77643fab-0a28-4139-8b5c-8ae6a2c9077f
+[2026-02-01 00:08:13 INF] Product creation request processed.
+[2026-02-01 00:08:13 INF] HTTP POST /api/Product responded 200 in 384.3703 ms
+[2026-02-01 00:10:54 INF] Received request to update a product.
+[2026-02-01 00:10:54 INF] Starting product update process.
+[2026-02-01 00:10:54 INF] Updating product in the database.
+[2026-02-01 00:10:54 INF] Product updated successfully.
+[2026-02-01 00:10:54 INF] Product updated successfully: Iphone17 air
+[2026-02-01 00:10:54 INF] Product update request processed.
+[2026-02-01 00:10:54 INF] HTTP PUT /api/Product/77643fab-0a28-4139-8b5c-8ae6a2c9077f responded 200 in 412.5685 ms
+[2026-02-01 00:11:26 INF] Received request to get a product by ID.
+[2026-02-01 00:11:26 INF] Starting product retrieval process.
+[2026-02-01 00:11:26 INF] Retrieving product by ID from the database with productId: 77643fab-0a28-4139-8b5c-8ae6a2c9077f.
+[2026-02-01 00:11:26 INF] Product retrieved successfully: Iphone17 air.
+[2026-02-01 00:11:26 INF] Product retrieved successfully: Iphone17 air
+[2026-02-01 00:11:26 INF] Product retrieval request processed.
+[2026-02-01 00:11:26 INF] HTTP GET /api/Product/77643fab-0a28-4139-8b5c-8ae6a2c9077f responded 200 in 30.6866 ms
+[2026-02-01 00:12:17 INF] Received request to get products by category ID.
+[2026-02-01 00:12:17 INF] Starting product retrieval by category process.
+[2026-02-01 00:12:17 INF] Retrieving products for Category ID: af715c43-832d-4d4a-9217-2f06ec1b5760
+[2026-02-01 00:12:17 INF] Retrieving products by category from the database with categoryId: af715c43-832d-4d4a-9217-2f06ec1b5760.
+[2026-02-01 00:12:17 INF] Retrieved 1 products for categoryId: af715c43-832d-4d4a-9217-2f06ec1b5760.
+[2026-02-01 00:12:17 INF] Retrieved 1 products for Category ID: af715c43-832d-4d4a-9217-2f06ec1b5760
+[2026-02-01 00:12:17 INF] Product retrieval by category request processed.
+[2026-02-01 00:12:17 INF] HTTP GET /api/Product/category/af715c43-832d-4d4a-9217-2f06ec1b5760 responded 200 in 37.5265 ms
+[2026-02-01 00:12:46 INF] Received request to disable a product.
+[2026-02-01 00:12:46 INF] Starting product disable process.
+[2026-02-01 00:12:46 INF] Disabling product in the database with productId: 77643fab-0a28-4139-8b5c-8ae6a2c9077f.
+[2026-02-01 00:12:47 INF] Product with ID 77643fab-0a28-4139-8b5c-8ae6a2c9077f has been disabled.
+[2026-02-01 00:12:47 INF] Product disabled successfully.
+[2026-02-01 00:12:47 INF] Product disable request processed.
+[2026-02-01 00:12:47 INF] HTTP DELETE /api/Product/disable/77643fab-0a28-4139-8b5c-8ae6a2c9077f responded 200 in 447.9080 ms
+[2026-02-01 00:13:37 INF] Creating a new role.
+[2026-02-01 00:13:37 INF] Starting role creation process.
+[2026-02-01 00:13:37 INF] Adding a new role to the database.
+[2026-02-01 00:13:37 INF] Role added successfully.
+[2026-02-01 00:13:37 INF] Role created successfully with ID: 8d1455f4-7f24-4b5e-bd09-01d3fd7c93d7
+[2026-02-01 00:13:37 INF] Role created successfully.
+[2026-02-01 00:13:37 INF] HTTP POST /api/Role responded 200 in 34.1574 ms
+[2026-02-01 00:13:50 INF] Retrieving all roles.
+[2026-02-01 00:13:50 INF] Starting role retrieval process.
+[2026-02-01 00:13:50 INF] Retrieving roles from the database.
+[2026-02-01 00:13:50 INF] Retrieved 1 roles.
+[2026-02-01 00:13:50 INF] Retrieved 1 roles.
+[2026-02-01 00:13:50 INF] Roles retrieved successfully.
+[2026-02-01 00:13:50 INF] HTTP GET /api/Role responded 200 in 30.9451 ms
+[2026-02-01 00:14:15 INF] Retrieving all roles.
+[2026-02-01 00:14:15 INF] Starting role retrieval process.
+[2026-02-01 00:14:15 INF] Retrieving roles from the database.
+[2026-02-01 00:14:15 INF] Retrieved 3 roles.
+[2026-02-01 00:14:15 INF] Retrieved 3 roles.
+[2026-02-01 00:14:15 INF] Roles retrieved successfully.
+[2026-02-01 00:14:15 INF] HTTP GET /api/Role responded 200 in 8.3418 ms
+[2026-02-01 00:16:34 INF] Updating role.
+[2026-02-01 00:16:34 INF] Starting role update process.
+[2026-02-01 00:16:34 INF] Updating role in the database.
+[2026-02-01 00:16:34 INF] Role updated successfully.
+[2026-02-01 00:16:34 INF] Role updated successfully: MANAGER
+[2026-02-01 00:16:34 INF] Role updated successfully.
+[2026-02-01 00:16:34 INF] HTTP PUT /api/Role/8d1455f4-7f24-4b5e-bd09-01d3fd7c93d7 responded 200 in 55.5228 ms
+[2026-02-01 00:18:05 INF] Retrieving role by ID.
+[2026-02-01 00:18:05 INF] Starting role retrieval process.
+[2026-02-01 00:18:05 INF] Retrieving role by ID from the database with roleId: 8d1455f4-7f24-4b5e-bd09-01d3fd7c93d7.
+[2026-02-01 00:18:05 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2026-02-01 00:18:05 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2026-02-01 00:18:05 INF] Role retrieved successfully: MANAGER.
+[2026-02-01 00:18:05 INF] Role retrieved successfully: MANAGER
+[2026-02-01 00:18:05 INF] Role retrieved successfully.
+[2026-02-01 00:18:05 INF] HTTP GET /api/Role/8d1455f4-7f24-4b5e-bd09-01d3fd7c93d7 responded 200 in 299.4443 ms
+[2026-02-01 00:18:26 INF] Disabling role.
+[2026-02-01 00:18:26 INF] Starting role disable process.
+[2026-02-01 00:18:26 INF] Disabling role in the database with roleId: 8d1455f4-7f24-4b5e-bd09-01d3fd7c93d7.
+[2026-02-01 00:18:26 INF] Role with ID 8d1455f4-7f24-4b5e-bd09-01d3fd7c93d7 has been disabled.
+[2026-02-01 00:18:26 INF] Role disabled successfully.
+[2026-02-01 00:18:26 INF] Role disabled successfully.
+[2026-02-01 00:18:26 INF] HTTP DELETE /api/Role/8d1455f4-7f24-4b5e-bd09-01d3fd7c93d7 responded 200 in 355.7125 ms
+[2026-02-01 00:20:33 INF] Creating a new user role.
+[2026-02-01 00:20:33 INF] Starting user role creation process.
+[2026-02-01 00:20:33 INF] Adding a new user role to the database.
+[2026-02-01 00:20:33 INF] User role added successfully.
+[2026-02-01 00:20:33 INF] User role created successfully with ID: de6c2a73-22ee-4644-bb46-5676294f8240
+[2026-02-01 00:20:33 INF] User role created successfully.
+[2026-02-01 00:20:33 INF] HTTP POST /api/UserRole responded 200 in 187.3552 ms
+[2026-02-01 00:20:52 INF] Retrieving all user roles.
+[2026-02-01 00:20:52 INF] Starting user role retrieval process.
+[2026-02-01 00:20:52 INF] Retrieving user roles from the database.
+[2026-02-01 00:20:52 INF] Retrieved 3 user roles.
+[2026-02-01 00:20:52 INF] Retrieved 3 user roles.
+[2026-02-01 00:20:52 INF] User roles retrieved successfully.
+[2026-02-01 00:20:52 INF] HTTP GET /api/UserRole responded 200 in 24.4673 ms
+[2026-02-01 00:23:23 INF] Disabling user with ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-01 00:23:23 INF] Disabling user with ID: de6c2a73-22ee-4644-bb46-5676294f8240
+[2026-02-01 00:23:23 INF] Retrieving user by ID: de6c2a73-22ee-4644-bb46-5676294f8240 from the database.
+[2026-02-01 00:23:23 INF] User with ID: de6c2a73-22ee-4644-bb46-5676294f8240 retrieved successfully.
+[2026-02-01 00:23:23 INF] Updating user with ID: de6c2a73-22ee-4644-bb46-5676294f8240 in the database.
+[2026-02-01 00:23:23 INF] Disabling user role.
+[2026-02-01 00:23:23 INF] Starting user role disable process.
+[2026-02-01 00:23:23 INF] Disabling user role in the database with userId: de6c2a73-22ee-4644-bb46-5676294f8240 and roleId: f691e86b-32cc-4329-a322-ea708fcb155c.
+[2026-02-01 00:23:23 INF] User with ID: de6c2a73-22ee-4644-bb46-5676294f8240 updated successfully.
+[2026-02-01 00:23:23 INF] User with ID: de6c2a73-22ee-4644-bb46-5676294f8240 disabled successfully.
+[2026-02-01 00:23:23 INF] User with ID: "de6c2a73-22ee-4644-bb46-5676294f8240" disabled successfully
+[2026-02-01 00:23:23 INF] HTTP DELETE /api/users/de6c2a73-22ee-4644-bb46-5676294f8240/disable responded 204 in 91008.1985 ms
+[2026-02-01 00:23:23 INF] User role with userId: de6c2a73-22ee-4644-bb46-5676294f8240 and roleId: f691e86b-32cc-4329-a322-ea708fcb155c has been disabled.
+[2026-02-01 00:23:23 INF] User role disabled successfully.
+[2026-02-01 00:23:23 INF] User role disabled successfully.
+[2026-02-01 00:23:23 INF] HTTP DELETE /api/UserRole/de6c2a73-22ee-4644-bb46-5676294f8240/f691e86b-32cc-4329-a322-ea708fcb155c responded 200 in 53.8889 ms
+[2026-02-01 00:23:34 INF] Disabling user role.
+[2026-02-01 00:23:34 INF] Starting user role disable process.
+[2026-02-01 00:23:34 INF] Disabling user role in the database with userId: de6c2a73-22ee-4644-bb46-5676294f8240 and roleId: f691e86b-32cc-4329-a322-ea708fcb155c.
+[2026-02-01 00:23:34 INF] User role with userId: de6c2a73-22ee-4644-bb46-5676294f8240 and roleId: f691e86b-32cc-4329-a322-ea708fcb155c has been disabled.
+[2026-02-01 00:23:34 INF] User role disabled successfully.
+[2026-02-01 00:23:34 INF] User role disabled successfully.
+[2026-02-01 00:23:34 INF] HTTP DELETE /api/UserRole/de6c2a73-22ee-4644-bb46-5676294f8240/f691e86b-32cc-4329-a322-ea708fcb155c responded 200 in 237.2497 ms
+[2026-02-01 00:23:44 INF] Retrieving all user roles.
+[2026-02-01 00:23:44 INF] Starting user role retrieval process.
+[2026-02-01 00:23:44 INF] Retrieving user roles from the database.
+[2026-02-01 00:23:44 INF] Retrieved 2 user roles.
+[2026-02-01 00:23:44 INF] Retrieved 2 user roles.
+[2026-02-01 00:23:44 INF] User roles retrieved successfully.
+[2026-02-01 00:23:44 INF] HTTP GET /api/UserRole responded 200 in 79.2255 ms
+[2026-02-01 03:28:36 INF] Now listening on: http://localhost:5291
+[2026-02-01 03:28:36 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-01 03:28:36 INF] Hosting environment: Development
+[2026-02-01 03:28:36 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-01 03:30:21 WRN] Failed to determine the https port for redirect.
+[2026-02-01 03:30:21 INF] User login attempt.
+[2026-02-01 03:30:21 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-01 03:30:21 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-01 03:30:22 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-02-01 03:30:22 ERR] Unhandled exception
+System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at AuthService.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/Auth&UserServices/AuthService.cs:line 40
+   at AuthController.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/UserController.cs/AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+[2026-02-01 03:30:22 ERR] HTTP POST /api/auth/login responded 500 in 517.4667 ms
+[2026-02-01 03:31:35 INF] User login attempt.
+[2026-02-01 03:31:35 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-01 03:31:35 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-01 03:31:35 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-02-01 03:31:35 ERR] Unhandled exception
+System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at AuthService.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/Auth&UserServices/AuthService.cs:line 40
+   at AuthController.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/UserController.cs/AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+[2026-02-01 03:31:35 ERR] HTTP POST /api/auth/login responded 500 in 28.2918 ms
+[2026-02-01 03:33:11 INF] Application is shutting down...
+O.IOException: Failed to bind to address http://127.0.0.1:5291: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-02-01 03:33:53 INF] Now listening on: http://localhost:5291
+[2026-02-01 03:33:53 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-01 03:33:53 INF] Hosting environment: Development
+[2026-02-01 03:33:53 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-01 03:34:49 WRN] Failed to determine the https port for redirect.
+[2026-02-01 03:34:55 INF] User login attempt.
+[2026-02-01 03:35:03 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-01 03:35:13 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-01 03:36:20 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-02-01 03:36:32 ERR] Unhandled exception
+System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at AuthService.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/Auth&UserServices/AuthService.cs:line 40
+   at AuthController.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/UserController.cs/AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+[2026-02-01 03:36:37 ERR] HTTP POST /api/auth/login responded 500 in 108158.2539 ms
+[2026-02-01 03:39:47 INF] Now listening on: http://localhost:5291
+[2026-02-01 03:39:47 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-01 03:39:47 INF] Hosting environment: Development
+[2026-02-01 03:39:47 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-01 03:41:44 WRN] Failed to determine the https port for redirect.
+[2026-02-01 03:41:44 INF] User login attempt.
+[2026-02-01 03:41:44 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-01 03:41:44 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-01 03:41:45 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-02-01 03:41:45 ERR] Unhandled exception
+System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at AuthService.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/Auth&UserServices/AuthService.cs:line 40
+   at AuthController.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/UserController.cs/AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+[2026-02-01 03:41:45 ERR] HTTP POST /api/auth/login responded 500 in 436.0720 ms
+[2026-02-01 03:42:13 INF] Application is shutting down...

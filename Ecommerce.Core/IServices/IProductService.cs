@@ -1,0 +1,15 @@
+public interface IProductService
+{
+    // Define methods for product-related operations
+
+    //Create a product
+    public Task CreateProduct(ProductDto productDto, CancellationToken cancellationToken);
+    //Update a product
+    public Task UpdateProduct(ProductDto productDto, Guid productId, CancellationToken cancellationToken);
+    //Read List of Products By CategoryId
+    public Task<List<ProductDto>> GetProductsByCategoryId(Guid categoryId, int pageNumber, int pageSize, CancellationToken cancellationToken);
+    //Read Product By ProductId
+    public Task<ProductDto> GetProductById(Guid productId, CancellationToken cancellationToken);
+    //Disable a product By ProductId
+    public Task DisableProductById(Guid productId, CancellationToken cancellationToken);
+}

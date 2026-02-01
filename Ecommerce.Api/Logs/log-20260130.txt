@@ -1,0 +1,8 @@
+[2026-01-30 22:17:45 WRN] No XML encryptor configured. Key {559e51b0-9c3d-4406-be9d-a3d29fe93adf} may be persisted to storage in unencrypted form.
+[2026-01-30 22:17:45 INF] Now listening on: http://localhost:5291
+[2026-01-30 22:17:45 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-30 22:17:45 INF] Hosting environment: Development
+[2026-01-30 22:17:45 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-30 22:23:16 WRN] Failed to determine the https port for redirect.
+[2026-01-30 22:23:16 INF] HTTP GET /api/Category responded 401 in 36.0927 ms
+[2026-01-30 22:24:03 INF] Application is shutting down...

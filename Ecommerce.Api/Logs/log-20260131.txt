@@ -1,0 +1,1055 @@
+[2026-01-31 02:10:20 INF] Now listening on: http://localhost:5291
+[2026-01-31 02:10:20 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 02:10:20 INF] Hosting environment: Development
+[2026-01-31 02:10:20 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 02:12:15 WRN] Failed to determine the https port for redirect.
+[2026-01-31 02:12:15 INF] Registering a new user.
+[2026-01-31 02:12:15 INF] Registering user with email: tejdeepakula775@gmail.com
+[2026-01-31 02:12:15 INF] Adding a new user to the database.
+[2026-01-31 02:12:16 INF] User added successfully.
+[2026-01-31 02:12:16 INF] User registered successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 02:12:16 INF] User registered successfully.
+[2026-01-31 02:12:16 INF] HTTP POST /api/auth/register responded 200 in 502.5250 ms
+[2026-01-31 02:13:34 INF] User login attempt.
+[2026-01-31 02:13:34 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 02:13:34 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 02:13:34 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 02:13:35 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 02:13:35 INF] Retrieved 0 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 02:13:35 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 02:13:35 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 02:13:35 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 02:13:35 INF] User logged in successfully.
+[2026-01-31 02:13:35 INF] HTTP POST /api/auth/login responded 200 in 228.2519 ms
+[2026-01-31 02:18:54 INF] HTTP GET /api/Category responded 401 in 19.2338 ms
+[2026-01-31 02:19:53 INF] HTTP GET /api/Category responded 401 in 2.4869 ms
+[2026-01-31 02:20:08 INF] HTTP GET /api/Category responded 401 in 1.1727 ms
+[2026-01-31 02:23:25 INF] HTTP GET /api/Category responded 403 in 26.7960 ms
+[2026-01-31 02:24:55 INF] Application is shutting down...
+[2026-01-31 02:50:06 INF] Now listening on: http://localhost:5291
+[2026-01-31 02:50:06 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 02:50:06 INF] Hosting environment: Development
+[2026-01-31 02:50:06 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 02:53:24 INF] Application is shutting down...
+[2026-01-31 03:05:15 INF] Now listening on: http://localhost:5291
+[2026-01-31 03:05:15 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 03:05:15 INF] Hosting environment: Development
+[2026-01-31 03:05:15 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 03:06:31 WRN] Failed to determine the https port for redirect.
+[2026-01-31 03:06:31 INF] User login attempt.
+[2026-01-31 03:06:31 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 03:06:31 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 03:06:31 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 03:06:31 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 03:06:31 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 03:06:31 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 03:06:31 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 03:06:31 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 03:06:31 INF] User logged in successfully.
+[2026-01-31 03:06:31 INF] HTTP POST /api/auth/login responded 200 in 600.9608 ms
+[2026-01-31 03:07:19 INF] HTTP GET /api/Category responded 401 in 26.5196 ms
+[2026-01-31 03:08:20 INF] HTTP GET /api/Category responded 401 in 4.7565 ms
+[2026-01-31 03:16:25 ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5291: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-01-31 03:16:39 ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5291: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-01-31 03:16:46 ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5291: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-01-31 03:17:19 ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5291: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-01-31 03:18:23 ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5291: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-01-31 03:33:15 INF] Now listening on: http://localhost:5291
+[2026-01-31 03:33:15 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 03:33:15 INF] Hosting environment: Development
+[2026-01-31 03:33:15 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 03:34:28 WRN] Failed to determine the https port for redirect.
+[2026-01-31 03:34:28 INF] User login attempt.
+[2026-01-31 03:34:28 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 03:34:28 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 03:34:28 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 03:34:28 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 03:34:28 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 03:34:28 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 03:34:28 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 03:34:28 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 03:34:28 INF] User logged in successfully.
+[2026-01-31 03:34:28 INF] HTTP POST /api/auth/login responded 200 in 517.3229 ms
+[2026-01-31 03:35:57 INF] Retrieving all categories.
+[2026-01-31 03:35:57 INF] Starting category retrieval process.
+[2026-01-31 03:35:57 INF] Retrieving categories from the database.
+[2026-01-31 03:35:57 INF] Retrieved 0 categories.
+[2026-01-31 03:35:57 WRN] No categories found.
+[2026-01-31 03:35:57 INF] HTTP GET /api/Category responded 404 in 80.2977 ms
+[2026-01-31 03:38:44 INF] Registering a new user.
+[2026-01-31 03:38:44 INF] Registering user with email: nikkicool1752@gmail.com
+[2026-01-31 03:38:44 INF] Adding a new user to the database.
+[2026-01-31 03:38:44 INF] User added successfully.
+[2026-01-31 03:38:44 INF] User registered successfully with email: nikkicool1752@gmail.com
+[2026-01-31 03:38:44 INF] User registered successfully.
+[2026-01-31 03:38:44 INF] HTTP POST /api/auth/register responded 200 in 119.7218 ms
+[2026-01-31 03:43:42 INF] User login attempt.
+[2026-01-31 03:43:42 INF] Attempting login for email: nikkicool1752@gmail.com
+[2026-01-31 03:43:42 INF] Retrieving user by email: nikkicool1752@gmail.com from the database.
+[2026-01-31 03:43:42 INF] User with email: nikkicool1752@gmail.com retrieved successfully.
+[2026-01-31 03:43:42 INF] Retrieving active roles for active user with UserId: "9f6a0824-603e-4f70-9e4c-5609c03b807b"
+[2026-01-31 03:43:42 INF] Retrieved 1 roles for UserId: "9f6a0824-603e-4f70-9e4c-5609c03b807b"
+[2026-01-31 03:43:42 INF] Generating JWT token for user ID: "9f6a0824-603e-4f70-9e4c-5609c03b807b"
+[2026-01-31 03:43:42 INF] JWT token generated successfully for user ID: "9f6a0824-603e-4f70-9e4c-5609c03b807b"
+[2026-01-31 03:43:42 INF] User logged in successfully with email: nikkicool1752@gmail.com
+[2026-01-31 03:43:42 INF] User logged in successfully.
+[2026-01-31 03:43:42 INF] HTTP POST /api/auth/login responded 200 in 80.5615 ms
+[2026-01-31 03:45:16 INF] HTTP GET /api/Role responded 403 in 4.8193 ms
+[2026-01-31 03:46:43 INF] HTTP GET /api/users/me responded 400 in 10.2154 ms
+[2026-01-31 03:47:05 INF] HTTP GET /api/users/me responded 400 in 2.3829 ms
+[2026-01-31 03:59:22 INF] HTTP GET /api/users responded 403 in 2.5845 ms
+[2026-01-31 04:00:09 INF] HTTP DELETE /api/users/de6c2a73-22ee-4644-bb46-5676294f8240/disable responded 403 in 0.3733 ms
+[2026-01-31 04:00:24 INF] Retrieving all categories.
+[2026-01-31 04:00:24 INF] Starting category retrieval process.
+[2026-01-31 04:00:24 INF] Retrieving categories from the database.
+[2026-01-31 04:00:24 INF] Retrieved 0 categories.
+[2026-01-31 04:00:24 WRN] No categories found.
+[2026-01-31 04:00:24 INF] HTTP GET /api/Category responded 404 in 39.8326 ms
+[2026-01-31 04:21:14 INF] Application is shutting down...
+[2026-01-31 16:37:56 INF] Now listening on: http://localhost:5291
+[2026-01-31 16:37:56 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 16:37:56 INF] Hosting environment: Development
+[2026-01-31 16:37:56 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 16:48:13 INF] Now listening on: http://localhost:5291
+[2026-01-31 16:48:13 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 16:48:13 INF] Hosting environment: Development
+[2026-01-31 16:48:13 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 17:09:52 INF] Now listening on: http://localhost:5291
+[2026-01-31 17:09:52 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 17:09:52 INF] Hosting environment: Development
+[2026-01-31 17:09:52 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 17:11:23 INF] Now listening on: http://localhost:5291
+[2026-01-31 17:11:23 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 17:11:23 INF] Hosting environment: Development
+[2026-01-31 17:11:23 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 17:14:56 WRN] Failed to determine the https port for redirect.
+[2026-01-31 17:14:56 INF] User login attempt.
+[2026-01-31 17:14:56 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 17:14:56 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 17:14:56 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 17:15:11 ERR] An error occurred using the connection to database 'EcommerceDb' on server 'localhost,1433'.
+[2026-01-31 17:15:11 ERR] An exception occurred while iterating over the results of a query for context type 'EcommerceDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+[2026-01-31 17:15:11 ERR] Unhandled exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at AuthService.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/Auth&UserServices/AuthService.cs:line 40
+   at AuthController.Login(LoginDto dto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/UserController.cs/AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+[2026-01-31 17:15:11 ERR] HTTP POST /api/auth/login responded 500 in 15104.6686 ms
+[2026-01-31 17:16:14 INF] User login attempt.
+[2026-01-31 17:16:14 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 17:16:14 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 17:16:14 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 17:16:14 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:16:14 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:16:14 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:16:14 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:16:14 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 17:16:14 INF] User logged in successfully.
+[2026-01-31 17:16:14 INF] HTTP POST /api/auth/login responded 200 in 467.0569 ms
+[2026-01-31 17:16:57 INF] HTTP GET /api/users/me responded 401 in 9.6463 ms
+[2026-01-31 17:17:52 INF] User login attempt.
+[2026-01-31 17:17:52 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 17:17:52 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 17:17:52 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 17:17:53 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:17:53 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:17:53 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:17:53 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:17:53 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 17:17:53 INF] User logged in successfully.
+[2026-01-31 17:17:53 INF] HTTP POST /api/auth/login responded 200 in 642.7126 ms
+[2026-01-31 17:22:36 INF] HTTP GET /api/users/me responded 400 in 226571.2310 ms
+[2026-01-31 17:24:51 INF] Now listening on: http://localhost:5291
+[2026-01-31 17:24:51 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 17:24:51 INF] Hosting environment: Development
+[2026-01-31 17:24:51 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 17:25:36 WRN] Failed to determine the https port for redirect.
+[2026-01-31 17:25:36 INF] User login attempt.
+[2026-01-31 17:25:36 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 17:25:36 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 17:25:36 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 17:25:37 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:25:37 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:25:37 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:25:37 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:25:37 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 17:25:37 INF] User logged in successfully.
+[2026-01-31 17:25:37 INF] HTTP POST /api/auth/login responded 200 in 569.3681 ms
+[2026-01-31 17:28:12 INF] HTTP GET /api/users/me responded 400 in 110473.1012 ms
+[2026-01-31 17:30:15 INF] Retrieving all roles.
+[2026-01-31 17:30:54 INF] Starting role retrieval process.
+[2026-01-31 17:31:00 INF] Retrieving roles from the database.
+[2026-01-31 17:31:00 INF] Retrieved 2 roles.
+[2026-01-31 17:31:00 INF] Retrieved 2 roles.
+[2026-01-31 17:31:08 INF] Roles retrieved successfully.
+[2026-01-31 17:31:11 INF] HTTP GET /api/Role responded 200 in 64245.0662 ms
+[2026-01-31 17:42:02 INF] HTTP GET /api/users/me responded 400 in 192188.8273 ms
+[2026-01-31 17:47:11 INF] HTTP GET /api/users/me responded 400 in 304574.8446 ms
+[2026-01-31 17:50:08 INF] HTTP GET /api/users/me responded 400 in 169380.4493 ms
+[2026-01-31 17:54:46 INF] Now listening on: http://localhost:5291
+[2026-01-31 17:54:46 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 17:54:46 INF] Hosting environment: Development
+[2026-01-31 17:54:46 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 17:55:41 WRN] Failed to determine the https port for redirect.
+[2026-01-31 17:55:41 INF] User login attempt.
+[2026-01-31 17:55:41 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 17:55:41 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 17:55:41 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 17:55:41 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:55:41 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:55:41 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:55:41 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 17:55:41 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 17:55:41 INF] User logged in successfully.
+[2026-01-31 17:55:41 INF] HTTP POST /api/auth/login responded 200 in 677.1378 ms
+[2026-01-31 18:01:30 INF] HTTP GET /api/users/me responded 400 in 266979.6752 ms
+[2026-01-31 18:05:20 INF] Now listening on: http://localhost:5291
+[2026-01-31 18:05:20 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 18:05:20 INF] Hosting environment: Development
+[2026-01-31 18:05:20 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 18:05:53 WRN] Failed to determine the https port for redirect.
+[2026-01-31 18:05:53 INF] User login attempt.
+[2026-01-31 18:05:53 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 18:05:53 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 18:05:53 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 18:05:54 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:05:54 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:05:54 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:05:54 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:05:54 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 18:05:54 INF] User logged in successfully.
+[2026-01-31 18:05:54 INF] HTTP POST /api/auth/login responded 200 in 612.6531 ms
+[2026-01-31 18:06:28 INF] Fetching profile for the authenticated user.
+[2026-01-31 18:06:46 INF] HTTP GET /api/users/me responded 400 in 24165.1259 ms
+[2026-01-31 18:07:17 INF] Fetching profile for the authenticated user.
+[2026-01-31 18:09:20 INF] Now listening on: http://localhost:5291
+[2026-01-31 18:09:20 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 18:09:20 INF] Hosting environment: Development
+[2026-01-31 18:09:20 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 18:09:59 WRN] Failed to determine the https port for redirect.
+[2026-01-31 18:09:59 INF] User login attempt.
+[2026-01-31 18:09:59 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 18:09:59 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 18:09:59 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 18:09:59 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:09:59 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:09:59 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:09:59 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:09:59 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 18:09:59 INF] User logged in successfully.
+[2026-01-31 18:09:59 INF] HTTP POST /api/auth/login responded 200 in 567.3558 ms
+[2026-01-31 18:10:36 INF] Fetching profile for the authenticated user.
+[2026-01-31 18:10:58 INF] Fetching profile for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:11:07 INF] Retrieving user by ID: de6c2a73-22ee-4644-bb46-5676294f8240 from the database.
+[2026-01-31 18:11:08 INF] User with ID: de6c2a73-22ee-4644-bb46-5676294f8240 retrieved successfully.
+[2026-01-31 18:11:14 INF] Profile fetched successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:11:27 INF] Profile fetched successfully for the authenticated user.
+[2026-01-31 18:11:33 INF] HTTP GET /api/users/me responded 200 in 63678.4513 ms
+[2026-01-31 18:16:28 INF] Creating a new category.
+[2026-01-31 18:16:28 INF] Starting category creation process.
+[2026-01-31 18:16:28 INF] Adding a new category to the database.
+[2026-01-31 18:16:28 ERR] Failed executing DbCommand (31ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Category] ([CategoryId], [CreatedAt], [Description], [IsActive], [Name], [UpdatedAt], [UserCreatedId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 18:16:28 ERR] An exception occurred in the database while saving changes for context type 'EcommerceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 18:16:28 ERR] A database update error occurred.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CategoryRepository.CreateCategory(Category category, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Data/Repositories/CategoryRepository.cs:line 17
+   at CategoryService.CreateCategory(CategoryDto categoryDto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/CategoryService.cs:line 30
+   at CategoryController.CreateCategory(CategoryDto categoryDto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/CategoryController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+[2026-01-31 18:16:28 ERR] HTTP POST /api/Category responded 500 in 285.6552 ms
+[2026-01-31 18:18:04 INF] Creating a new category.
+[2026-01-31 18:18:14 INF] Starting category creation process.
+[2026-01-31 18:19:00 INF] Adding a new category to the database.
+[2026-01-31 18:19:05 ERR] Failed executing DbCommand (62ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Category] ([CategoryId], [CreatedAt], [Description], [IsActive], [Name], [UpdatedAt], [UserCreatedId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 18:19:05 ERR] An exception occurred in the database while saving changes for context type 'EcommerceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 18:19:47 ERR] A database update error occurred.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CategoryRepository.CreateCategory(Category category, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Data/Repositories/CategoryRepository.cs:line 17
+   at CategoryService.CreateCategory(CategoryDto categoryDto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/CategoryService.cs:line 30
+   at CategoryController.CreateCategory(CategoryDto categoryDto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/CategoryController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+[2026-01-31 18:19:55 ERR] HTTP POST /api/Category responded 500 in 145634.1136 ms
+[2026-01-31 18:20:13 INF] Creating a new category.
+[2026-01-31 18:20:15 INF] Starting category creation process.
+[2026-01-31 18:20:18 INF] Adding a new category to the database.
+[2026-01-31 18:20:20 ERR] Failed executing DbCommand (415ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Category] ([CategoryId], [CreatedAt], [Description], [IsActive], [Name], [UpdatedAt], [UserCreatedId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 18:20:20 ERR] An exception occurred in the database while saving changes for context type 'EcommerceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 18:21:24 ERR] A database update error occurred.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CategoryRepository.CreateCategory(Category category, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Data/Repositories/CategoryRepository.cs:line 17
+   at CategoryService.CreateCategory(CategoryDto categoryDto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/CategoryService.cs:line 30
+   at CategoryController.CreateCategory(CategoryDto categoryDto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/CategoryController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+[2026-01-31 18:21:24 ERR] HTTP POST /api/Category responded 500 in 74636.1895 ms
+[2026-01-31 18:21:36 INF] Creating a new category.
+[2026-01-31 18:21:39 INF] Starting category creation process.
+[2026-01-31 18:22:00 INF] Adding a new category to the database.
+[2026-01-31 18:23:57 ERR] Failed executing DbCommand (130ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Category] ([CategoryId], [CreatedAt], [Description], [IsActive], [Name], [UpdatedAt], [UserCreatedId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 18:23:57 ERR] An exception occurred in the database while saving changes for context type 'EcommerceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 18:23:57 ERR] A database update error occurred.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Category_User_UserCreatedId". The conflict occurred in database "EcommerceDb", table "dbo.User", column 'UserId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1cbdf45c-97ad-4cd4-849b-1c0cfaba70d5
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CategoryRepository.CreateCategory(Category category, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Data/Repositories/CategoryRepository.cs:line 17
+   at CategoryService.CreateCategory(CategoryDto categoryDto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Core/Services/CategoryService.cs:line 30
+   at CategoryController.CreateCategory(CategoryDto categoryDto, CancellationToken cancellationToken) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Controllers/CategoryController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api/Middleware/ExceptionHandlingMiddleware.cs:line 20
+[2026-01-31 18:23:57 ERR] HTTP POST /api/Category responded 500 in 146716.0823 ms
+[2026-01-31 18:25:06 INF] Now listening on: http://localhost:5291
+[2026-01-31 18:25:06 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 18:25:06 INF] Hosting environment: Development
+[2026-01-31 18:25:06 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 18:25:42 WRN] Failed to determine the https port for redirect.
+[2026-01-31 18:25:42 INF] User login attempt.
+[2026-01-31 18:25:42 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 18:25:42 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 18:25:42 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 18:25:42 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:25:42 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:25:42 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:25:42 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 18:25:42 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 18:25:42 INF] User logged in successfully.
+[2026-01-31 18:25:42 INF] HTTP POST /api/auth/login responded 200 in 573.3300 ms
+[2026-01-31 18:28:14 INF] Creating a new category.
+[2026-01-31 18:28:16 INF] Starting category creation process.
+[2026-01-31 18:28:16 INF] Adding a new category to the database.
+[2026-01-31 18:28:16 INF] Category added successfully.
+[2026-01-31 18:28:16 INF] Category created successfully with ID: af715c43-832d-4d4a-9217-2f06ec1b5760
+[2026-01-31 18:28:21 INF] Category created successfully.
+[2026-01-31 18:28:33 INF] HTTP POST /api/Category responded 200 in 24261.6430 ms
+[2026-01-31 23:40:29 INF] Now listening on: http://localhost:5291
+[2026-01-31 23:40:29 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 23:40:29 INF] Hosting environment: Development
+[2026-01-31 23:40:29 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-01-31 23:41:13 WRN] Failed to determine the https port for redirect.
+[2026-01-31 23:41:13 INF] User login attempt.
+[2026-01-31 23:41:13 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-01-31 23:41:13 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-01-31 23:41:14 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-01-31 23:41:14 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 23:41:14 INF] Retrieved 1 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 23:41:14 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 23:41:14 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-01-31 23:41:14 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-01-31 23:41:14 INF] User logged in successfully.
+[2026-01-31 23:41:14 INF] HTTP POST /api/auth/login responded 200 in 612.1990 ms
+[2026-01-31 23:41:55 INF] Retrieving all categories.
+[2026-01-31 23:41:55 INF] Starting category retrieval process.
+[2026-01-31 23:41:55 INF] Retrieving categories from the database.
+[2026-01-31 23:41:55 INF] Retrieved 1 categories.
+[2026-01-31 23:41:55 INF] Retrieved 1 categories.
+[2026-01-31 23:41:55 INF] Categories retrieved successfully.
+[2026-01-31 23:41:55 INF] HTTP GET /api/Category responded 200 in 78.9058 ms
+[2026-01-31 23:43:39 INF] Retrieving all categories.
+[2026-01-31 23:43:39 INF] Starting category retrieval process.
+[2026-01-31 23:43:39 INF] Retrieving categories from the database.
+[2026-01-31 23:43:39 INF] Retrieved 1 categories.
+[2026-01-31 23:43:39 INF] Retrieved 1 categories.
+[2026-01-31 23:43:39 INF] Categories retrieved successfully.
+[2026-01-31 23:43:39 INF] HTTP GET /api/Category responded 200 in 45.8485 ms
+[2026-01-31 23:47:14 INF] Updating category.
+[2026-01-31 23:47:14 INF] Starting category update process.
+[2026-01-31 23:47:14 INF] Updating category in the database.
+[2026-01-31 23:47:14 INF] Category updated successfully.
+[2026-01-31 23:47:14 INF] Category updated successfully: ELECTRONICS
+[2026-01-31 23:47:14 INF] Category updated successfully.
+[2026-01-31 23:47:14 INF] HTTP PUT /api/Category/af715c43-832d-4d4a-9217-2f06ec1b5760 responded 200 in 104.7161 ms
+[2026-01-31 23:47:23 INF] Retrieving all categories.
+[2026-01-31 23:47:23 INF] Starting category retrieval process.
+[2026-01-31 23:47:23 INF] Retrieving categories from the database.
+[2026-01-31 23:47:23 INF] Retrieved 1 categories.
+[2026-01-31 23:47:23 INF] Retrieved 1 categories.
+[2026-01-31 23:47:23 INF] Categories retrieved successfully.
+[2026-01-31 23:47:23 INF] HTTP GET /api/Category responded 200 in 5.7773 ms
+[2026-01-31 23:48:55 INF] Retrieving category by ID.
+[2026-01-31 23:48:55 INF] Starting category retrieval by ID process.
+[2026-01-31 23:48:55 INF] Retrieving category with ID af715c43-832d-4d4a-9217-2f06ec1b5760 from the database.
+[2026-01-31 23:48:55 INF] Retrieved category with ID af715c43-832d-4d4a-9217-2f06ec1b5760.
+[2026-01-31 23:48:55 INF] Retrieved category with ID af715c43-832d-4d4a-9217-2f06ec1b5760.
+[2026-01-31 23:48:55 INF] Category retrieved successfully.
+[2026-01-31 23:48:55 INF] HTTP GET /api/Category/af715c43-832d-4d4a-9217-2f06ec1b5760 responded 200 in 25.4320 ms
+[2026-01-31 23:49:17 INF] Disabling category.
+[2026-01-31 23:49:17 INF] Starting category disable process.
+[2026-01-31 23:49:17 INF] Disabling category in the database with categoryId: af715c43-832d-4d4a-9217-2f06ec1b5760.
+[2026-01-31 23:49:17 INF] Category with ID af715c43-832d-4d4a-9217-2f06ec1b5760 has been disabled.
+[2026-01-31 23:49:17 INF] Category disabled successfully.
+[2026-01-31 23:49:17 INF] Category disabled successfully.
+[2026-01-31 23:49:17 INF] HTTP DELETE /api/Category/af715c43-832d-4d4a-9217-2f06ec1b5760 responded 200 in 27.7300 ms
+[2026-01-31 23:50:00 INF] Retrieving category by ID.
+[2026-01-31 23:50:00 INF] Starting category retrieval by ID process.
+[2026-01-31 23:50:00 INF] Retrieving category with ID af715c43-832d-4d4a-9217-2f06ec1b5760 from the database.
+[2026-01-31 23:50:00 INF] Retrieved category with ID af715c43-832d-4d4a-9217-2f06ec1b5760.
+[2026-01-31 23:50:00 WRN] Category with ID af715c43-832d-4d4a-9217-2f06ec1b5760 not found.
+[2026-01-31 23:50:00 INF] HTTP GET /api/Category/af715c43-832d-4d4a-9217-2f06ec1b5760 responded 404 in 19.2536 ms
+[2026-01-31 23:51:36 INF] Claim: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier = de6c2a73-22ee-4644-bb46-5676294f8240
+[2026-01-31 23:51:36 INF] Claim: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress = tejdeepakula775@gmail.com
+[2026-01-31 23:51:36 INF] Claim: http://schemas.microsoft.com/ws/2008/06/identity/claims/role = Admin
+[2026-01-31 23:51:36 INF] Claim: exp = 1769886674
+[2026-01-31 23:51:36 INF] Claim: iss = Ecommerce.AuthServer
+[2026-01-31 23:51:36 INF] Claim: aud = Ecommerce.WebClient
+[2026-01-31 23:51:36 INF] Fetching all users.
+[2026-01-31 23:51:36 INF] Retrieving all users.
+[2026-01-31 23:51:36 INF] Retrieving all users from the database.
+[2026-01-31 23:51:36 INF] Retrieved 2 users.
+[2026-01-31 23:51:36 INF] Retrieved 2 users.
+[2026-01-31 23:51:36 INF] All users fetched successfully.
+[2026-01-31 23:51:36 INF] HTTP GET /api/users responded 200 in 25.1913 ms
+[2026-01-31 23:52:20 INF] Disabling user with ID: "9f6a0824-603e-4f70-9e4c-5609c03b807b"
+[2026-01-31 23:52:20 INF] Disabling user with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b
+[2026-01-31 23:52:20 INF] Retrieving user by ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b from the database.
+[2026-01-31 23:52:20 INF] User with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b retrieved successfully.
+[2026-01-31 23:52:20 INF] Updating user with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b in the database.
+[2026-01-31 23:52:20 INF] User with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b updated successfully.
+[2026-01-31 23:52:20 INF] User with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b disabled successfully.
+[2026-01-31 23:52:20 INF] User with ID: "9f6a0824-603e-4f70-9e4c-5609c03b807b" disabled successfully
+[2026-01-31 23:52:20 INF] HTTP DELETE /api/users/9f6a0824-603e-4f70-9e4c-5609c03b807b/disable responded 204 in 37.1682 ms
+[2026-01-31 23:54:00 INF] Disabling user with ID: "9f6a0824-603e-4f70-9e4c-5609c03b807b"
+[2026-01-31 23:54:00 INF] Disabling user with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b
+[2026-01-31 23:54:00 INF] Retrieving user by ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b from the database.
+[2026-01-31 23:54:00 INF] User with ID: 9f6a0824-603e-4f70-9e4c-5609c03b807b retrieved successfully.
+[2026-01-31 23:54:00 INF] HTTP DELETE /api/users/9f6a0824-603e-4f70-9e4c-5609c03b807b/disable responded 404 in 13.7753 ms
+[2026-01-31 23:54:18 INF] Claim: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier = de6c2a73-22ee-4644-bb46-5676294f8240
+[2026-01-31 23:54:18 INF] Claim: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress = tejdeepakula775@gmail.com
+[2026-01-31 23:54:18 INF] Claim: http://schemas.microsoft.com/ws/2008/06/identity/claims/role = Admin
+[2026-01-31 23:54:18 INF] Claim: exp = 1769886674
+[2026-01-31 23:54:18 INF] Claim: iss = Ecommerce.AuthServer
+[2026-01-31 23:54:18 INF] Claim: aud = Ecommerce.WebClient
+[2026-01-31 23:54:18 INF] Fetching all users.
+[2026-01-31 23:54:18 INF] Retrieving all users.
+[2026-01-31 23:54:18 INF] Retrieving all users from the database.
+[2026-01-31 23:54:18 INF] Retrieved 1 users.
+[2026-01-31 23:54:18 INF] Retrieved 1 users.
+[2026-01-31 23:54:18 INF] All users fetched successfully.
+[2026-01-31 23:54:18 INF] HTTP GET /api/users responded 200 in 8.3911 ms
+[2026-01-31 23:55:29 INF] Claim: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier = de6c2a73-22ee-4644-bb46-5676294f8240
+[2026-01-31 23:55:29 INF] Claim: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress = tejdeepakula775@gmail.com
+[2026-01-31 23:55:29 INF] Claim: http://schemas.microsoft.com/ws/2008/06/identity/claims/role = Admin
+[2026-01-31 23:55:29 INF] Claim: exp = 1769886674
+[2026-01-31 23:55:29 INF] Claim: iss = Ecommerce.AuthServer
+[2026-01-31 23:55:29 INF] Claim: aud = Ecommerce.WebClient
+[2026-01-31 23:55:29 INF] Fetching all users.
+[2026-01-31 23:55:29 INF] Retrieving all users.
+[2026-01-31 23:55:29 INF] Retrieving all users from the database.
+[2026-01-31 23:55:29 INF] Retrieved 2 users.
+[2026-01-31 23:55:29 INF] Retrieved 2 users.
+[2026-01-31 23:55:29 INF] All users fetched successfully.
+[2026-01-31 23:55:29 INF] HTTP GET /api/users responded 200 in 6.4061 ms
+[2026-01-31 23:58:44 INF] Application is shutting down...
+Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-01-31 23:55:43 ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5291: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-01-31 23:57:08 ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5291: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[2026-01-31 23:59:06 INF] Now listening on: http://localhost:5291
+[2026-01-31 23:59:06 INF] Application started. Press Ctrl+C to shut down.
+[2026-01-31 23:59:06 INF] Hosting environment: Development
+[2026-01-31 23:59:06 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
