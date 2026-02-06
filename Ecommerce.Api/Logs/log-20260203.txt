@@ -1,0 +1,88 @@
+[2026-02-03 02:22:33 INF] Now listening on: http://localhost:5291
+[2026-02-03 02:22:33 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-03 02:22:33 INF] Hosting environment: Development
+[2026-02-03 02:22:33 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-03 02:22:41 WRN] Failed to determine the https port for redirect.
+[2026-02-03 02:22:41 INF] HTTP GET / responded 404 in 28.1830 ms
+[2026-02-03 02:23:23 INF] User login attempt.
+[2026-02-03 02:23:23 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:23:23 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 02:23:23 INF] HTTP POST /api/auth/login responded 400 in 300.1945 ms
+[2026-02-03 02:24:13 INF] User login attempt.
+[2026-02-03 02:24:13 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:24:13 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 02:24:13 INF] HTTP POST /api/auth/login responded 400 in 18.7365 ms
+[2026-02-03 02:24:17 INF] User login attempt.
+[2026-02-03 02:24:17 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:24:17 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 02:24:17 INF] HTTP POST /api/auth/login responded 400 in 37.4116 ms
+[2026-02-03 02:26:08 INF] User login attempt.
+[2026-02-03 02:26:08 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:26:08 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 02:26:08 INF] HTTP POST /api/auth/login responded 400 in 13.3344 ms
+[2026-02-03 02:39:50 INF] Application is shutting down...
+[2026-02-03 02:40:07 INF] Now listening on: http://localhost:5291
+[2026-02-03 02:40:07 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-03 02:40:07 INF] Hosting environment: Development
+[2026-02-03 02:40:07 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-03 02:40:51 WRN] Failed to determine the https port for redirect.
+[2026-02-03 02:40:56 INF] User login attempt.
+[2026-02-03 02:41:00 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:41:03 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 02:42:24 INF] HTTP POST /api/auth/login responded 400 in 92766.4312 ms
+[2026-02-03 02:47:29 INF] Now listening on: http://localhost:5291
+[2026-02-03 02:47:29 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-03 02:47:29 INF] Hosting environment: Development
+[2026-02-03 02:47:29 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-03 02:48:02 WRN] Failed to determine the https port for redirect.
+[2026-02-03 02:48:13 INF] User login attempt.
+[2026-02-03 02:48:13 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:48:13 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 02:50:13 INF] Now listening on: http://localhost:5291
+[2026-02-03 02:50:14 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-03 02:50:14 INF] Hosting environment: Development
+[2026-02-03 02:50:14 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-03 02:50:19 WRN] Failed to determine the https port for redirect.
+[2026-02-03 02:50:24 INF] User login attempt.
+[2026-02-03 02:50:24 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:50:24 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 02:54:16 INF] Now listening on: http://localhost:5291
+[2026-02-03 02:54:16 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-03 02:54:16 INF] Hosting environment: Development
+[2026-02-03 02:54:16 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-03 02:54:23 WRN] Failed to determine the https port for redirect.
+[2026-02-03 02:54:28 INF] User login attempt.
+[2026-02-03 02:54:28 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:54:28 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 02:54:45 INF] Now listening on: http://localhost:5291
+[2026-02-03 02:54:45 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-03 02:54:45 INF] Hosting environment: Development
+[2026-02-03 02:54:45 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-03 02:54:48 WRN] Failed to determine the https port for redirect.
+[2026-02-03 02:54:53 INF] User login attempt.
+[2026-02-03 02:54:54 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 02:54:54 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 03:00:01 INF] Now listening on: http://localhost:5291
+[2026-02-03 03:00:01 INF] Application started. Press Ctrl+C to shut down.
+[2026-02-03 03:00:01 INF] Hosting environment: Development
+[2026-02-03 03:00:01 INF] Content root path: /Users/tejdeepakula/Projects/Ecommerce/EcommerceProductAPI/Ecommerce.Api
+[2026-02-03 03:00:10 WRN] Failed to determine the https port for redirect.
+[2026-02-03 03:00:10 INF] User login attempt.
+[2026-02-03 03:00:10 INF] Attempting login for email: tejdeepakula775@gmail.com
+[2026-02-03 03:00:10 INF] Retrieving user by email: tejdeepakula775@gmail.com from the database.
+[2026-02-03 03:00:10 INF] User with email: tejdeepakula775@gmail.com retrieved successfully.
+[2026-02-03 03:00:11 INF] Retrieving active roles for active user with UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-03 03:00:11 INF] Retrieved 2 roles for UserId: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-03 03:00:11 INF] Generating JWT token for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-03 03:00:11 INF] JWT token generated successfully for user ID: "de6c2a73-22ee-4644-bb46-5676294f8240"
+[2026-02-03 03:00:11 INF] User logged in successfully with email: tejdeepakula775@gmail.com
+[2026-02-03 03:00:11 INF] User logged in successfully.
+[2026-02-03 03:00:11 INF] HTTP POST /api/auth/login responded 200 in 544.9150 ms
+[2026-02-03 03:00:50 INF] HTTP GET /api/Role responded 401 in 8.3614 ms
+[2026-02-03 03:01:14 INF] Retrieving all roles.
+[2026-02-03 03:01:14 INF] Starting role retrieval process.
+[2026-02-03 03:01:14 INF] Retrieving roles from the database.
+[2026-02-03 03:01:14 INF] Retrieved 2 roles.
+[2026-02-03 03:01:14 INF] Retrieved 2 roles.
+[2026-02-03 03:01:14 INF] Roles retrieved successfully.
+[2026-02-03 03:01:14 INF] HTTP GET /api/Role responded 200 in 73.3895 ms
